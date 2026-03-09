@@ -28,7 +28,7 @@ public class Veiculos {
         return nome;
     }
 
-    public void setNome(String nome) {
+    private void setNome(String nome) {
         this.nome = nome;
     }
 
@@ -36,7 +36,7 @@ public class Veiculos {
         return placa;
     }
 
-    public void setPlaca(String placa) {
+    private void setPlaca(String placa) {
         this.placa = placa;
     }
 
@@ -44,7 +44,7 @@ public class Veiculos {
         return gasolina;
     }
 
-    public void setGasolina(double gasolina) {
+    private void setGasolina(double gasolina) {
         this.gasolina = gasolina;
     }
 }
