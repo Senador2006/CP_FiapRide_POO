@@ -15,8 +15,12 @@ public class Principal {
         veiculo1.gastaGasolina(60);
         System.out.println("Gasolina após gasto: " + veiculo1.getGasolina());
 
-        // Testando setter
+        // Testando setters
         veiculo1.setNome("Pedro");
         System.out.println("Novo dono do carro: " + veiculo1.getNome());
+        veiculo1.setPlaca("BBB-5678");
+        System.out.println("Nova Placa: " + veiculo1.getPlaca());
+        veiculo1.setGasolina(50);
+        System.out.println("Gasolina Atual: " + veiculo1.getGasolina());
     }
 }
