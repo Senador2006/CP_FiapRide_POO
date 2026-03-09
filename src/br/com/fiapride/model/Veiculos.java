@@ -5,13 +5,12 @@ public class Veiculos {
     // Atributos
     private String nome;
     private String placa;
-    private int gasolina;
+    private double gasolina;
 
     // Construtor
     public Veiculos(String nome, String placa) {
         this.nome=nome;
         this.placa=placa;
-        this.gasolina=gasolina;
     }
 
     // Métodos
@@ -19,7 +18,7 @@ public class Veiculos {
         gasolina = gasolina + litros;
     }
 
-    public void gastaGasolina(int litros){
+    public void gastaGasolina(double litros){
         gasolina = gasolina - litros;
     }
 
@@ -41,11 +40,11 @@ public class Veiculos {
         this.placa = placa;
     }
 
-    public int getGasolina() {
+    public double getGasolina() {
         return gasolina;
     }
 
-    public void setGasolina(int gasolina) {
+    public void setGasolina(double gasolina) {
         this.gasolina = gasolina;
     }
 }
