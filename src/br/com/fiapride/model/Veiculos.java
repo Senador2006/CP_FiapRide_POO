@@ -8,7 +8,7 @@ public class Veiculos {
     private int gasolina;
 
     // Construtor
-    public Veiculos(String nome, String placa, int gasolina) {
+    public Veiculos(String nome, String placa) {
         this.nome=nome;
         this.placa=placa;
         this.gasolina=gasolina;

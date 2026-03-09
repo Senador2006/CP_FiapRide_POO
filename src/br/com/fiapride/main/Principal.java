@@ -6,7 +6,8 @@ public class Principal {
     public static void main(String[] args) {
 
         // Primeiro objeto
-        Veiculos veiculo1 = new Veiculos("Carlos", "ABC-1234", 30);
+        Veiculos veiculo1 = new Veiculos("Carlos", "ABC-1234");
+        veiculo1.setGasolina(50);
         System.out.println("Dono do veiculo: " + veiculo1.getNome() + "  |  Placa: " + veiculo1.getPlaca() + "  |  Litros de gasolina: " + veiculo1.getGasolina());
 
         // Testando metodos
